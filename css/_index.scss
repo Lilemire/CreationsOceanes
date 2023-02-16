@@ -34,3 +34,22 @@ div.canvas-content{
     text-align:center;
     padding-top:30px;
 }
+
+.btn {
+    font-family:'Handel Gothic D', sans-serif;
+    background-color: variables.$color-4;
+    color : variables.$color-3;
+    border : 2px solid variables.$color-3;
+
+    &:hover {
+        background-color: variables.$color-3;
+        color : variables.$color-4;
+        border : 2px solid variables.$color-4;
+    }
+}
+
+.active {
+    background-color: variables.$color-1;
+    color : variables.$color-2;
+    border : 2px solid variables.$color-2;
+}
